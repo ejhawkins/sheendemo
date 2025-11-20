@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
+    <img src="/public/header.png" alt="Header" class="full-width-header">
     <div id="calendar-container">
         <div id="calendar-header">
             <div class="header-time-zone"></div>
@@ -16,6 +17,26 @@
             <div id="grid-container"></div>
         </div>
     </div>
+
+    <!-- Event modal -->
+    <div id="event-modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-overlay" data-close></div>
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="modal-close" data-close aria-label="Close">✕</button>
+        <div class="modal-body">
+          <h2 id="modal-title">Event Title</h2>
+          <p id="modal-time">Time range</p>
+          <pre id="modal-details" class="modal-details"></pre>
+          <div class="modal-media">
+            <video id="modal-video" controls playsinline webkit-playsinline preload="metadata">
+              <!-- Source set dynamically -->
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="/src/script.js"></script>
 </body>
 </html>
