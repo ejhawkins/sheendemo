@@ -1,5 +1,10 @@
 name: Build and Deploy to GitHub Pages
 
+# Give the job permission to write repo contents and Pages so GITHUB_TOKEN can publish
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches: [ main ]
@@ -11,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Use Node.js
       uses: actions/setup-node@v4
