@@ -11,7 +11,7 @@ body {
 #calendar-container {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 30vh;
 }
 
 #calendar-header {
