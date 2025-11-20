@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // --- Add some sample events with video URLs (mobile-friendly MP4) ---
-    addEvent(3, 10, 2, 'Team Meeting', { agenda: 'Discuss Q4 roadmap' }, 'https://picsum.photos/seed/1/200/300', 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4');
+    addEvent(3, 10, 2, 'Hair Appointment', { agenda: 'Discuss Consultation' }, 'https://picsum.photos/seed/1/200/300', 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4');
     addEvent(1, 12, 1, 'Her Lips Lip Gloss', { product: 'Her Lips' }, 'https://picsum.photos/seed/2/200/300', 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/boat.mp4');
-    addEvent(5, 9, 3, 'Work on project', { project: 'Calendar UI' }, 'https://picsum.photos/seed/3/200/300', 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4');
+    addEvent(5, 9, 3, 'Interview with Sheen Magazine', { project: 'Erica Hawkins Candidate for Video Editor' }, 'https://picsum.photos/seed/3/200/300', 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4');
 });
